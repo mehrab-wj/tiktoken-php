@@ -13,6 +13,11 @@ Forked from [semji/gpt3-tokenizer-php](https://github.com/semji/gpt3-tokenizer-p
 * mbstring extension [details here on how to install mbstring](https://www.php.net/manual/en/mbstring.installation.php)
 ## Usage
 
+First install the package using composer:
+```bash
+composer require mehrab-wj/tiktoken-php
+```
+
 ```php
 use TikToken\Encoder;
 $prompt = "Ai is cool";
