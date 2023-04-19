@@ -1,6 +1,6 @@
 <?php
 
-namespace Semji\GPT3Tokenizer;
+namespace TikToken;
 
 use PHPUnit\Framework\TestCase;
 
