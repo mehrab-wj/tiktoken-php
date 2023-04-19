@@ -1,6 +1,6 @@
 <?php
 
-namespace Semji\GPT3Tokenizer;
+namespace TikToken;
 
 class Encoder
 {
@@ -78,7 +78,7 @@ class Encoder
 
         $bpeTokens = [];
         foreach ($matches[0] as $token) {
-            $token = utf8_encode((string) $token);
+            $token = mb_convert_encoding((string) $token, "UTF-8", "ISO-8859-1");
             $characters = mb_str_split($token, 1, 'UTF-8');
 
             $resultWord = '';
