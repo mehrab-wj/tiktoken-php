@@ -1,17 +1,17 @@
 {
-    "name": "semji/gpt-3-tokenizer-php",
-    "description": "PHP Text Tokenizer for GPT models",
+    "name": "mehrab-wj/tiktoken-php",
+    "description": "a clone of python tiktoken but for PHP! fast BPE tokeniser for use with OpenAI's models.",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Semji",
-            "email": "tech@semji.com"
+            "name": "Mehrab Hojjati Pour",
+            "email": "thisismehrab@gmail.com"
         }
     ],
     "autoload": {
         "psr-4": {
-            "Semji\\GPT3Tokenizer\\": "src"
+            "TikToken\\": "src"
         }
     },
     "autoload-dev": {
